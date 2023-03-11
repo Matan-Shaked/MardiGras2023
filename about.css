@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 50px;
+    padding: 2rem;
+    background-color: #9453A6;
+    width: 100vw;
+}
+
+.container img {
+    object-fit: cover;
+    width: 90%;
+    height: 100%;
+}
+
+.item1,
+.item3,
+.item5 {
+    font-size: 1.5rem;
+    font-family: Henny Penny;
+    color: #0D0D0D;
+    background-color: #F2CC0F;
+    padding: 2rem;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        gap: 5px;
+        padding: 0.5rem;
+        background-color: #9453A6;
+    }
+
+    .container img {
+        object-fit: cover;
+        width: 90%;
+        height: 100%;
+    }
+
+    .item1,
+    .item3,
+    .item5 {
+        font-size: 0.5rem;
+        font-family: Henny Penny;
+        color: #0D0D0D;
+        background-color: #F2CC0F;
+        padding: 0.5rem;
+    }
+}

@@ -1,2 +1,2 @@
-# MardiGras2023
- project of HTML, CSS and JS
+# Mardi-Grass2023
+ Project of HTML, CSS and JS
