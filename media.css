@@ -31,6 +31,7 @@
 
 .media-section {
     background-color: #F2CC0F;
+    width: 100vw;
 }
 
 @media screen and (max-width:600px) {
